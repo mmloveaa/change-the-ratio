@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -21,7 +20,16 @@
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/
 		respond.min.js"></script>
 		<![endif]-->
-	</head>
+
+
+		<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+    </head>
 
 	<body data-spy="scroll" data-target=".navbar-collapse">
 	
@@ -30,9 +38,9 @@
 			<div class="navbar-header">
 				<button class="navbar-toggle" data-toggle="collapse" datatarget=".
 	navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
+				<span class="icon-bar">Home</span>
+				<span class="icon-bar">My X-Factors</span>
+				<span class="icon-bar">Why Coding House</span>
 				</button>
 					<a class="navbar-brand">#Change The Ratio</a>
 			</div>
@@ -53,6 +61,8 @@
 					<h1 class="marginTop">Hi, I'm Mandy</h1>
 					<p class="lead">Welcome to my Coding House #ChangeTheRatio Scholarship entry. You can learn more about me <a href="https://mandylearnscode.wordpress.com/about/">here</a> if you wish.</p>
 					<h4 class="bold marginTop"> Thanks for visitng!</h4>
+					<a href="https://twitter.com/MandyChanNYC"><img id="socialimg" src="images/twitter1.jpg"/></a>
+			        <a href="https://www.linkedin.com/in/mandychan1"><img id="socialimg" src="images/linkedin1.jpg"/></a>
 				</div>
 				<div class="col-md-4 col-xs-7 col-sm-4" id="topRow">
 					<img class="images" src="images/robot.jpg"/>
@@ -64,36 +74,105 @@
 			<div class="row" class="center">
 				<h1 class="center title">My "X-Factors"</h1>
 				<p class="lead center">Here's why I have what it takes to thrive at Coding House</p>
-				<div class="col-md-4 marginTop">
-					<h2><span class="glyphicon glyphicon-briefcase"></span> Strong Work ethics</h2>
-					<p>More to explain</p>
-					<button class="btn btn-success marginTop">More</button>
-				</div>
 
 				<div class="col-md-4 marginTop">
 					<h2><span class="glyphicon glyphicon-heart"></span> Passion to Learn</h2>
 					<p>More to explain</p>
-					<button class="btn btn-success marginTop">More</button>
+					<button class="btn btn-success marginTop" data-toggle="modal" type="button" class="btn btn-primary btn-lg"data-target="#myModal1">More</button>
+
+				  <!-- Modal -->
+					<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h4 class="modal-title" id="myModalLabel">Passion to Learn</h4>
+					      </div>
+					      <div class="modal-body">
+					        <p class="modalpara">In college, despite my double specializations in product development and financial planning, I also had double minors in Economic and French. My passion and my dedication to learn can also be observed at work. I have done five internships from 2011-2013 while obtaining my bachelor degree because I valued real-world and hands on working experience.</p>
+							<p>In regards to learning code, I have been using different online resources to teach myself code. My curiosity to new technologies always push me out of my comfort zone. Even though I may not understand certain concepts at the very first time, I would keep searching and reading. You can find a list of resources I used to learn code <a href="https://mandylearnscode.wordpress.com/coding-resources/">here</a> since my programming journey began in October. I understand this industry is constantly evolving and new technologies are put out everyday. One must stay hungry and foolish to learn for a lifetime as a developer. I am committed to this decision I made.</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 				</div>
 
+
 				<div class="col-md-4 marginTop">
-					<h2><span class="glyphicon glyphicon-grain"></span> Self-motivated, resilient</h2>
+					<h2><span class="glyphicon glyphicon-briefcase"></span> Strong Work ethics</h2>
 					<p>More to explain</p>
-					<button class="btn btn-success marginTop">More</button>
+					<button class="btn btn-success marginTop" data-toggle="modal" type="button" class="btn btn-primary btn-lg"data-target="#myModal2">More</button>
+
+				  <!-- Modal -->
+					<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h4 class="modal-title" id="myModalLabel">Strong Work ethics</h4>
+					      </div>
+					      <div class="modal-body">
+					        <p>Growing up as a kid, I saw how hard my parents worked to support the family. They are my role models. As the second generation of the chinese immigrants, I managed to enroll as a full-time student in New York City meanwhile working at JP Morgan Chase and interned at different corporate retail companies. I graduated with 3.5 GPA and had five internships under my belt which highly boosted my value to the employers.</p>
+					        <p>After I graduated from college, my first job as a retail planning analyst, I would work from 7am to 7pm sometimes until 8pm depends on the season. Since my work invloved a lot of reports analysis, bringing work to home for the weekend are nothing new in the industry.</p>
+					        <p>In November 2015, I attended my first Hackathon at University of Maryland. During the two days Hackathon, we were challenged to pitch an idea and built a demo within 24 hours. I stayed up all night to work on the front end side of the project. Our creativity and innovative UI/UX Design, helped us stand out and win the champion of JP Morgan Chase Hack Challenge. Here is a <a href="https://github.com/mmloveaa">link</a> to our project.</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 				</div>
-			</div>
+
+
+				
+
+
+				<div class="col-md-4 marginTop">
+					<h2><span class="glyphicon glyphicon-grain"></span> Self-motivated,Resilient</h2>
+					<p>More to explain</p>
+					<button class="btn btn-success marginTop" data-toggle="modal" type="button" class="btn btn-primary btn-lg"data-target="#myModal3">More</button>
+
+                   <!-- Modal -->
+						<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h4 class="modal-title" id="myModalLabel">Self-motivated, Resilient</h4>
+						      </div>
+						      <div class="modal-body">
+						        <p>During the month of December, I would get up at 7am every day and followed through my study schedule on what to learn and achieve each day. During the Christmas holiday and New Year Eve, I stayed at home and continued to work on my projects. Here is a <a href="https://mandylearnscode.wordpress.com/projects/">link</a> to all the projects I built during the Christmas holiday. I am a very self-disciplined person that when I set up a goal, I do not and never give up. My goal right now is to become a fullstack JavaScript Developer. Nothing will stop me and there is no turning back for me.</p>
+						        <p>I understand programming is not easy and there will be many frustrating moments along the way when I get stuck at different problems. However, my experience as an international student back in 2008 taught me everything is possible as long as I am determined and put enough time and effort into it. I was able to land my first job as a retail planning analyst because of my solid work experience. Although English is my second language, I overcame the language barrier and worked my way through different obstacles. I have come a long way to get to where I am today. Leaving retail industry to the technology world is exciting for me and I will do everythng i can to get better at programming.</p>
+						        <p>I believe I can learn programming just like I learned English starting from scratch. I believe I can be a great developer. I want to build applications that improve people's life. I hope to show other women whom I met at Women Who Code they can become developers too. My long term goal is to work for a company that makes a positive impact on the world.</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+				 		</div>
+				 </div>
+		   </div>
 	</div>
+
+
 
 
 	<div class="container contentContainer" id="footer">
 		<div class="row">
 			<h1 class="center title">Why Coding House For Me</h1>
-			<p class="lead center">There are many reasons for this</p>
-			<ol class="lead center">
-				<li>I want a fully-immersive live in bootcamp. So I can dedicate all my time focus on learning code. Coding House allows me to do that.</li>
-				<li>JavaScript is the first programming language I learned and I love it. It is the only computer language that allows developers to build a full fledged web application through one single language.</li>
-				<li></li>
-				<li></li>
+			<p class="lead center">There are Four major reasons</p>
+			<ol class="why">
+			   </br />
+				<li>I want a fully-immersive live in bootcamp. So I can dedicate all my time focus on learning code without worrying about commuting and other daily errands. My goal to get in a bootcamp is to learn as much as possible while every single minute I'm in it. Coding House allows me to maximize the use of my time.</li>
+				<br />
+				<li>Small class size and dedicated mentors are another reasons why I think Coding House is for me. While I have been learning programming through self-study, I know the immersion of Coding House will enable me to learn much more quickly. Here is a <a href="https://mandylearnscode.wordpress.com"><strong>link</strong></a> to my blog about my learning journey.</li>
+				<br />
+				<li>JavaScript is the first programming language I learned and I am sticking with it. It is the only computer language that allows developers to build a full-fledged web application through one single language. Coding House's 90% JavaScript and 10% HTML curriculum is exactly what I want.</li>
+				<br />
+				<li>It is located in the world renowned tech hub, Silicon Valley. Students will gain exposure to the local tech community and connections with the companies by attending different tech events or hackathons. Networking with other developers help increase the job placements after the bootcamp. I also would love to expand my network from New York City to Silicon Vallery.</li>
+				<br />
 			</ol>
 			<!-- <p class="center"><img src="images/appstore.jpg" class="appstoreImage" /> -->
 		</div>
@@ -112,3 +191,5 @@
 
 	</body>
 </html>
+Status API Training Shop Blog About Pricing
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
